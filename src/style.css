@@ -615,6 +615,10 @@ footer p {
   max-width: 100ch;
   margin-bottom: 8px;
 }
+footer a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
 footer > span {
   display: block;
   font-family: ui-monospace, monospace;

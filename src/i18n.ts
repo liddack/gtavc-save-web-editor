@@ -1,5 +1,6 @@
 import type { Locale, Text } from './core/catalogs';
 export const copy = {
+  repository: ['Source code on GitHub', 'Código-fonte no GitHub'],
   subtitle: [
     'Classic PC Retail · independent editor',
     'PC clássico Retail · editor independente',

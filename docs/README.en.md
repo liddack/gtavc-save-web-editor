@@ -8,6 +8,8 @@ Independent **classic GTA Vice City PC Retail** save editor. Runs entirely in th
 
 **Preview: automated binary validation and partial owner-reported in-game verification of the Cone Crazy reset; see [evidence and outstanding checks](VALIDATION.md).** Steam, mobile, Definitive Edition and format conversion are unsupported. A Retail layout cannot distinguish executable 1.0 from 1.1 or prove whether a compatible port produced the file.
 
+[Open the editor on GitHub Pages](https://liddack.github.io/gtavc-save-web-editor/)
+
 ## Run
 
 Use Node.js 22.12+ (24 recommended) and npm.

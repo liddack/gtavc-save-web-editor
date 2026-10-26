@@ -800,7 +800,12 @@ export default function App() {
       <footer>
         <p>{t('independent')}</p>
         <p>{t('privacy')}</p>
-        <span>Save Workshop · MIT · v0.1.0</span>
+        <span>
+          Save Workshop · MIT · v0.1.0 ·{' '}
+          <a href="https://github.com/liddack/gtavc-save-web-editor">
+            {t('repository')}
+          </a>
+        </span>
       </footer>
     </>
   );
