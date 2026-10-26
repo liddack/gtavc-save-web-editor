@@ -1,0 +1,10 @@
+node_modules
+node_modules/
+dist/
+*.tsbuildinfo
+.local/
+playwright-report/
+test-results/
+*.b
+*.sav
+.DS_Store

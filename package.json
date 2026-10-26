@@ -1,0 +1,35 @@
+{
+  "name": "gtavc-save-web-editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:local": "vitest run tests/local-save.test.ts",
+    "test:e2e": "playwright test",
+    "check": "npm run typecheck && npm test && npm run build",
+    "prepare:manual": "node --experimental-strip-types scripts/prepare-manual-tests.ts",
+    "prepare:cone-test": "node --experimental-strip-types scripts/prepare-cone-crazy-test.ts"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0",
+    "@types/node": "24.10.1",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "typescript": "5.9.3",
+    "vite": "8.3.2",
+    "vitest": "4.1.11"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
